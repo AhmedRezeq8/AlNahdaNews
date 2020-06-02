@@ -13,6 +13,8 @@
     <bitmap
     
       android:src="@drawable/sp"
+      android:gravity="fill"
+
       />
     
   </item>
