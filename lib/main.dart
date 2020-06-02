@@ -61,11 +61,11 @@ class _MyAppState extends State<MyApp> {
           const Locale('ar'), // arabic
         ],
         debugShowCheckedModeBanner: false,
-        // home: SplashScreen(),
-        routes: {
-          '/': (ctx) => SplashScreen(),
-          "/MyTabBar": (ctx) => MyTabBar(),
-        },
+        home: MyTabBar(),
+        // routes: {
+        //   '/': (ctx) => SplashScreen(),
+        //   "/MyTabBar": (ctx) => MyTabBar(),
+        // },
         // home: FadeAnimation(0.5, MyTabBar()),
       ),
     );
