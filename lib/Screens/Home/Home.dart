@@ -268,7 +268,7 @@ class _HomeState extends State<Home> {
                                         fontSize: 18,
                                         height: 1.3),
                                     textAlign: TextAlign.right,
-                                    maxLines: 3,
+                                    maxLines: 2,
                                   ),
                                   Container(
                                     color: Colors.grey.shade100,
